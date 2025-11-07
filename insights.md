@@ -3,7 +3,6 @@
 This analysis evaluates operational efficiency across hospital departments using patient wait time, arrival punctuality, and visit duration data. The findings reveal where workflow adjustments could significantly improve patient experience and throughput efficiency.
 
 ### Summary
-
 - Patients wait an average of 152 minutes, exceeding the updated hospital benchmark of 90 minutes.  
   This indicates widespread bottlenecks in post-check-in processes and department scheduling.
 
@@ -15,8 +14,8 @@ This analysis evaluates operational efficiency across hospital departments using
 
 - Staff-to-patient ratio shows minimal correlation with wait times, indicating that process design and scheduling efficiency, not headcount, are the primary drivers of delay.
 
-### Recommendations
 
+### Recommendations
 | Action | Objective | Responsible Team | Timeline |
 |--------|------------|------------------|-----------|
 | Review triage and provider assignment workflows in Neurology and General Surgery | Identify sources of post-check-in delay | Department Heads | Within 1 month |
@@ -41,6 +40,7 @@ To move beyond descriptive reporting, I performed exploratory and correlation-ba
 - **Correlation Testing:** Using Excel’s CORREL function, I measured the relationship between `Wait_Time_Minutes` and variables like `StaffToPatientRatio`, `ProvidersOnShift`, and `FacilityOccupancyRate`. The correlation coefficient (r = –0.05) indicated a very weak relationship, confirming that staffing levels are not the main determinant of patient delays.
 
 - **Variance and Equity Analysis:** I compared wait time variance across departments and insurance types. Neurology and General Surgery showed wait time variances nearly 2× higher than other departments, while Medicaid and Self-pay patients experienced average waits 20–25 minutes longer than those with private insurance. This suggests a potential equity gap in service speed.
+
 
 **Summary:** These analyses demonstrate that wait time inefficiencies stem primarily from process flow and scheduling patterns, not staffing shortages. Prioritizing workflow redesign between triage and provider start — and optimizing morning scheduling during 8AM–3PM would yield the largest performance gains.
  
