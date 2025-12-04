@@ -1,6 +1,6 @@
 # Hospital Patient Flow & Efficiency Dashboard
  
-### Business Task
+### Overview
 
 Analyze hospital patient flow data to uncover scheduling and process inefficiencies.
 The goal: reduce wait times, improve on-time arrivals, and optimize resource allocation without increasing staff headcount.
